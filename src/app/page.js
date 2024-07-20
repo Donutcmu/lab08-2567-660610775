@@ -5,6 +5,7 @@ import TaskInput from "./components/TaskInput";
 import Task from "./components/Task";
 
 
+
   
     
 
@@ -29,9 +30,10 @@ export default function Home() {
         {/* task input */}
         <TaskInput/>
         {/* task */}
-        <Task id= {tasks[0].id} title={tasks[0].title} isDone={tasks[0].isDone}/>
-        <Task id= {tasks[1].id} title={tasks[1].title} isDone={tasks[1].isDone}/>
-        <Task id= {tasks[2].id} title={tasks[2].title} isDone={tasks[2].isDone}/>
+        <Task task = {tasks[0]}/>
+        <Task task = {tasks[1]}/>
+        <Task task = {tasks[2]}/>
+        
         
         {/* task */}
         
